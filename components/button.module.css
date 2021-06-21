@@ -1,0 +1,19 @@
+.button{
+  cursor: pointer;
+  background: transparent;
+  color: var(--c-text-color);
+  border-radius: 99px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--fade);
+
+  &:hover{
+    color: rgba(var(--c-theme), 1);
+    background-color: rgba(var(--c-theme), .2);
+  }
+}
+
+.fullWidth{
+  width: 100%;
+}
